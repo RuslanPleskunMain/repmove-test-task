@@ -1,0 +1,29 @@
+{
+  "name": "repmove-test-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed --project=chromium",
+    "test:report": "playwright show-report",
+    "setup:test-user": "ts-node scripts/create-test-user.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuslanPleskunMain/repmove-test-task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RuslanPleskunMain/repmove-test-task/issues"
+  },
+  "homepage": "https://github.com/RuslanPleskunMain/repmove-test-task#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
